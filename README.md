@@ -57,7 +57,7 @@ In the example above, the contents of the file to be uploaded is hardcoded as "H
 Ideally, this would come from the contents of a request object. You could do this by using `{request.content}`.
 
 Also, the username and password should not be hardcoded. The best practice is to store these in an Apigee
-encrypted [Key-Value-Map]((https://docs.apigee.com/api-platform/reference/policies/key-value-map-operations-policy).
+encrypted [Key-Value-Map](https://docs.apigee.com/api-platform/reference/policies/key-value-map-operations-policy).
 
 
 ### Build Prerequisites
