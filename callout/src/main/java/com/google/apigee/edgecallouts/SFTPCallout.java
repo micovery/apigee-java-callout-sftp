@@ -45,16 +45,6 @@ public class SFTPCallout implements Execution {
   public static final String SFTP_FILENAME_PROP = "file-name";
   public static final String SFTP_FILE_CONTENT_PROP = "file-content";
 
-  public static final String MESSAGE_VAR_PROP = "message-variable-ref";
-  public static final String VERB_PROP = "verb";
-  public static final String PATH_PROP = "path";
-  public static final String RESOURCE_PROP = "resource";
-
-  public static final String X_AMZ_CONTENT_SHA256 = "x-Amz-content-sha256";
-  public static final String X_AMZ_DATE = "X-Amz-Date";
-  public static final String AUTHORIZATION = "Authorization";
-  public static final String HOST = "Host";
-
 
   public static void upload(String content,
                      String filePath,
